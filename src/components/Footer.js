@@ -26,7 +26,8 @@ class Footer extends Component {
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
                   : "???"}
-              </small>
+              </small> <br></br>
+              <small>Website inspired by dorota1997 on Github</small>
             </div>
           </div>
         </div>
