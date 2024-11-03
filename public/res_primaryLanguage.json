@@ -61,8 +61,14 @@
         "startDate": "2023",
         "description": "I developed a physically-based renderer using a pathtracing algorithm that generates images as .png files. I also implemented ray-scene intersection, acceleration structures, and radiometry to generate realistic images. I further improved rendering times drastically from minutes to milliseconds using a bounding volume hierarchy. I also integrated direct illumination with BSDF, zerobounce illumination, direct lighting with uniform hemisphere sampling and importance sampling lights, and recursive global illumination with Russian Roulette. I used adaptive sampling to reduce noise at the cost of performance through fixed and concentrated samples.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/pathtracer1.png",
+          "images/projects/pathtracer2.png",
+          "images/projects/pathtracer3.png",
+          "images/projects/pathtracer4.png",
+          "images/projects/pathtracer5.png",
+          "images/projects/pathtracer6.png",
+          "images/projects/pathtracer7.png",
+          "images/projects/pathtracer8.png"
         ],
         "technologies": [
           {
@@ -76,8 +82,7 @@
         "startDate": "2022",
         "description": "I trained a model with linear regression to predict house sale prices in Cook County and uncover injustices. I also feature engineered a dataset, removed outliers, experimented with design matrix, and one hot encoded nonnumerical features while optimizing for low training and testing RMSE using Python, pandas, and scikit-learn.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/housing.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -104,14 +109,120 @@
         ]
       },
       {
-        "title": "WAYLT",
-        "startDate": "2022",
-        "description": "I developed a web app inspired by Spotify Wrapped and BeReal to better share songs with friends and see statistics. I also worked primarily on frontend, designed initial look/aesthetic of web app on Figma and designed logo/icons. I developed the home page, navigation bar, settings, and log in/sign up to allow users to save preferences and data.",
+        "title": "Rasterizer",
+        "startDate": "2023",
+        "description": "I developed a vector graphics renderer that supports .svg files and draws the resulting image into a GUI. I also designed a rasterizer with features such as drawing triangles, hierarchical transforms, and texture mapping. I programmed various anti-aliasing algorithms such as supersampling, pixel sampling, and level sampling. Also added 6 options/modes variations to the renderer: two modes for image resampling (nearest and bilinear) and 3 modes for mipmap level resampling (level zero, nearest, and linear interpolation).",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/rasterizer.png",
+          "images/projects/rasterizer2.png",
+          "images/projects/rasterizer3.png",
+          "images/projects/rasterizer4.png",
+          "images/projects/rasterizer5.png",
+          "images/projects/rasterizer6.png",
+          "images/projects/rasterizer7.png",
+          "images/projects/rasterizer8.png",
+          "images/projects/rasterizer9.png"
+
         ],
         "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Mesh Editor",
+        "startDate": "2023",
+        "description": "I developed a mesh editor compatible with 3D meshes from .dae files and renders to a GUI. I programmed mesh operations such as edge flipping, edge splitting, and upsampling through loop subdivision. I also built in Bezier curves/surfaces using de Casteljau algorithm and triangle meshes using half-edge data structure. I implemented area-weighted normal vectors at vertices to allow for smoother Phong shading.",
+        "images": [
+          "images/projects/meshedit1.png",
+          "images/projects/meshedit2.png",
+          "images/projects/meshedit3.png",
+          "images/projects/meshedit4.png",
+          "images/projects/meshedit5.png"
+
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Cloth Simulator",
+        "startDate": "2023",
+        "description": "I implemented a real-time cloth simulation using point masses and springs with applied forces to represent movement. I also programmed cloth movement using Verlet integration to calculate new time steps and new point mass positions. I integrated support for cloth collision with different shapes and self-collisions to avoid clipping using a hash table.",
+        "images": [
+          "images/projects/cloth1.png",
+          "images/projects/cloth2.png",
+          "images/projects/cloth3.png",
+          "images/projects/cloth4.png",
+          "images/projects/cloth5.png",
+          "images/projects/cloth6.png",
+          "images/projects/cloth7.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Non-Photorealistic Shaders",
+        "startDate": "2023",
+        "description": "I programmed non-photorealistic shaders such as Cel/Toon, Voronoi, Gooch, Fresnel, and Palette. I incorporated research papers in programming of shaders and modified GUI code to support shader customizability (features include a color picker, light positioner, highlights toggle, and edge detection and thickness). I designed features such as a color picker, light positioner, highlights toggle, and edge detection and thickness. I also build the initial codebase based off a cloth simulator and reprogrammed to support .obj files for more complex models.",
+        "images": [
+          "images/projects/pathtracer1.png",
+          "images/projects/pathtracer2.png",
+          "images/projects/pathtracer3.png",
+          "images/projects/pathtracer4.png",
+          "images/projects/pathtracer5.png",
+          "images/projects/pathtracer6.png",
+          "images/projects/pathtracer7.png",
+          "images/projects/pathtracer8.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Optimized Convolutions",
+        "startDate": "2023",
+        "description": "I optimized 2D convolutions in C using parallelism through multi-threading, SIMD instructions, and multi-processing. I increased performance by 8x with multi-threading and by 5x with multi-processing compared to naive convolutions.",
+        "images": [
+          "images/projects/convolutions.png",
+          "images/projects/convolutions2.png"
+
+        ],
+        "technologies": [
+          {
+            "class": "devicon-c-plain",
+            "name": "C"
+          }
+        ]
+      },
+      {
+        "title": "WAYLT: Web Application",
+        "startDate": "2022",
+        "description": "I developed a web app in a team inspired by Spotify Wrapped and BeReal to better share songs with friends and see statistics. I worked primarily on frontend, designed initial look/aesthetic of web app on Figma and designed logo/icons. I also programmed the home page, navigation bar, settings, and log in/sign up to allow users to save preferences and data",
+        "images": [
+          "images/projects/waylt1.png",
+          "images/projects/waylt2.png",
+          "images/projects/waylt3.png",
+          "images/projects/waylt4.png",
+          "images/projects/waylt5.png"
+        ],
+        "url": "https://github.com/fullstack-decal-group-17/waylt",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -128,110 +239,18 @@
         ]
       },
       {
-        "title": "Rasterizer",
-        "startDate": "2023",
-        "description": "I developed a vector graphics renderer that supports .svg files and draws the resulting image into a GUI. I also designed a rasterizer with features such as drawing triangles, hierarchical transforms, and texture mapping. I programmed various anti-aliasing algorithms such as supersampling, pixel sampling, and level sampling. Also added 6 options/modes variations to the renderer: two modes for image resampling (nearest and bilinear) and 3 modes for mipmap level resampling (level zero, nearest, and linear interpolation).",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-cplusplus-plain",
-            "name": "C++"
-          }
-        ]
-      },
-      {
-        "title": "Mesh Editor",
-        "startDate": "2023",
-        "description": "I developed a mesh editor compatible with 3D meshes from .dae files and renders to a GUI. I programmed mesh operations such as edge flipping, edge splitting, and upsampling through loop subdivision. I also built in Bezier curves/surfaces using de Casteljau algorithm and triangle meshes using half-edge data structure. I implemented area-weighted normal vectors at vertices to allow for smoother Phong shading.",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-cplusplus-plain",
-            "name": "C++"
-          }
-        ]
-      },
-      {
-        "title": "Cloth Simulator",
-        "startDate": "2023",
-        "description": "I implemented a real-time cloth simulation using point masses and springs with applied forces to represent movement. I also programmed cloth movement using Verlet integration to calculate new time steps and new point mass positions. I integrated support for cloth collision with different shapes and self-collisions to avoid clipping using a hash table.",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-cplusplus-plain",
-            "name": "C++"
-          }
-        ]
-      },
-      {
-        "title": "Non-Photorealistic Shaders",
-        "startDate": "2023",
-        "description": "I programmed non-photorealistic shaders such as Cel/Toon, Voronoi, Gooch, Fresnel, and Palette. I incorporated research papers in programming of shaders and modified GUI code to support shader customizability (features include a color picker, light positioner, highlights toggle, and edge detection and thickness). I designed features such as a color picker, light positioner, highlights toggle, and edge detection and thickness. I also build the initial codebase based off a cloth simulator and reprogrammed to support .obj files for more complex models.",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-cplusplus-plain",
-            "name": "C++"
-          }
-        ]
-      },
-      {
-        "title": "Optimized Convolutions",
-        "startDate": "2023",
-        "description": "I optimized 2D convolutions in C using parallelism through multi-threading, SIMD instructions, and multi-processing. I increased performance by 8x with multi-threading and by 5x with multi-processing compared to naive convolutions.",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-c-plain",
-            "name": "C"
-          }
-        ]
-      },
-      {
-        "title": "WAYLT: Web Application",
-        "startDate": "2022",
-        "description": "I developed a web app in a team inspired by Spotify Wrapped and BeReal to better share songs with friends and see statistics. I worked primarily on frontend, designed initial look/aesthetic of web app on Figma and designed logo/icons. I also programmed the home page, navigation bar, settings, and log in/sign up to allow users to save preferences and data",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
         "title": "Slime Attack: 2D Platformer Game",
         "startDate": "2021",
         "description": "I developed a game in a team using Unity, C#, and data structures and algorithms concepts. I also designed 15+ sprites and implemented game level puzzle features. The game amassed 140+ playthroughs on itch.io",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/slime1.png",
+          "images/projects/slime2.png",
+          "images/projects/slime3.png",
+          "images/projects/slime4.png",
+          "images/projects/slime5.png",
+          "images/projects/slime6.png"
         ],
-        "url": "https://github.com",
+        "url": "https://itch.io/queue/c/1569619/gdd-spring-2021-showcase?game_id=975264",
         "technologies": [
           {
             "class": "devicon-csharp-plain",
@@ -244,14 +263,12 @@
         "startDate": "2022",
         "description": "I implemented neural networks to classify handwritten digits with 97.06% test accuracy and to identify languages with 83.8% test accuracy using gradient descent, linear regression, and ReLUs.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/handwriting.png"
         ],
-        "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-c-plain",
+            "name": "C"
           }
         ]
       },
@@ -260,10 +277,16 @@
         "startDate": "2022",
         "description": "I collaborated with 19 others on a year long short film using After Effects, Pixar Renderman, and learned Python scripting. I also shaded assets using Substance Painter and designed the environment.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/mole1.png",
+          "images/projects/mole2.png",
+          "images/projects/mole3.png",
+          "images/projects/mole4.png",
+          "images/projects/mole5.png",
+          "images/projects/mole6.png",
+          "images/projects/mole7.png",
+          "images/projects/mole8.png",
+          "images/projects/mole9.png"
         ],
-        "url": "https://github.com",
         "technologies": [
           {
             "class": "devicon-python-plain",
@@ -280,10 +303,12 @@
         "startDate": "2020",
         "description": "I designed and implemented a 2D tile-based world exploration engine with a pseudorandomly generated map.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/shiba1.png",
+          "images/projects/shiba2.png",
+          "images/projects/shiba3.png",
+          "images/projects/shiba4.png",
+          "images/projects/shiba5.png"
         ],
-        "url": "https://github.com",
         "technologies": [
           {
             "class": "devicon-java-plain",
