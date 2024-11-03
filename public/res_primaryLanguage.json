@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Vivian, a 4th year majoring in Computer Science at UC Berkeley and minoring in Data Science. My focus is on Frontend Development and Full-Stack Development with an interest in improving web accessibility. I'm currently looking for full-time SWE roles in California. When I'm not programming, I love hanging out with cats, running, nature, food, watching anime, reading books, drawing, and weightlifting!",
+      "description": "👋 I'm Vivian, a 4th year majoring in Computer Science at UC Berkeley and minoring in Data Science. My focus is on Frontend Development and Full-Stack Development with an interest in improving web accessibility. I'm currently looking for full-time SWE roles in California. When I'm not programming, I love hanging out with cats, running, hiking in nature, trying out new food, watching anime, reading books, drawing, and weightlifting!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,12 +11,15 @@
     },
     "projects": [
       {
-        "title": "Book Smart",
+        "title": "BookSmart",
         "startDate": "2024",
         "description": "I designed a website that modernizes reading through a discussion forum and smart book recommendations. I built the book search feature, shelves or book collections, login page, and added support for profile data persistence. I also implemented preferences saving for smarter book recommendations from Claude and GPT APIs. The result was a functional website with increasingly tailored book recommendations as user swipes (similar to Tinder)",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/projects/booksmart3.png",
+         "images/projects/booksmart1.png",
+         "images/projects/booksmart2.png",
+         "images/projects/booksmart4.png",
+         "images/projects/booksmart5.png"
         ],
         "url": "",
         "technologies": [
@@ -39,8 +42,7 @@
         "startDate": "2024",
         "description": "I built a voice assistant that toggles a light through a user’s voice commands using SpeechRecognition API. I also implemented functionality to speak back feedback to the user using SpeechSynthesis API on whether command was accepted or rejected.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/projects/voice_assistant.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -190,9 +192,9 @@
         ]
       },
       {
-        "title": "Non-Photorealistic Shaders",
+        "title": "Optimized Convolutions",
         "startDate": "2023",
-        "description": "I programmed non-photorealistic shaders such as Cel/Toon, Voronoi, Gooch, Fresnel, and Palette. I incorporated research papers in programming of shaders and modified GUI code to support shader customizability (features include a color picker, light positioner, highlights toggle, and edge detection and thickness). I designed features such as a color picker, light positioner, highlights toggle, and edge detection and thickness. I also build the initial codebase based off a cloth simulator and reprogrammed to support .obj files for more complex models.",
+        "description": "I optimized 2D convolutions in C using parallelism through multi-threading, SIMD instructions, and multi-processing. I increased performance by 8x with multi-threading and by 5x with multi-processing compared to naive convolutions.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -200,15 +202,15 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-cplusplus-plain",
-            "name": "C++"
+            "class": "devicon-c-plain",
+            "name": "C"
           }
         ]
       },
       {
-        "title": "Non-Photorealistic Shaders",
-        "startDate": "2023",
-        "description": "I programmed non-photorealistic shaders such as Cel/Toon, Voronoi, Gooch, Fresnel, and Palette. I incorporated research papers in programming of shaders and modified GUI code to support shader customizability (features include a color picker, light positioner, highlights toggle, and edge detection and thickness). I designed features such as a color picker, light positioner, highlights toggle, and edge detection and thickness. I also build the initial codebase based off a cloth simulator and reprogrammed to support .obj files for more complex models.",
+        "title": "WAYLT: Web Application",
+        "startDate": "2022",
+        "description": "I developed a web app in a team inspired by Spotify Wrapped and BeReal to better share songs with friends and see statistics. I worked primarily on frontend, designed initial look/aesthetic of web app on Figma and designed logo/icons. I also programmed the home page, navigation bar, settings, and log in/sign up to allow users to save preferences and data",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -216,8 +218,60 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-cplusplus-plain",
-            "name": "C++"
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Slime Attack: 2D Platformer Game",
+        "startDate": "2021",
+        "description": "I developed a game in a team using Unity, C#, and data structures and algorithms concepts. I also designed 15+ sprites and implemented game level puzzle features. The game amassed 140+ playthroughs on itch.io",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Digit Classification and Language Identification",
+        "startDate": "2022",
+        "description": "I implemented neural networks to classify handwritten digits with 97.06% test accuracy and to identify languages with 83.8% test accuracy using gradient descent, linear regression, and ReLUs.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Whack-a-Mole: 3D Advanced Animation Film",
+        "startDate": "2022",
+        "description": "I collaborated with 19 others on a year long short film using After Effects, Pixar Renderman, and learned Python scripting. I also shaded assets using Substance Painter and designed the environment.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-maya-plain",
+            "name": "Maya"
           }
         ]
       },
@@ -240,38 +294,107 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "UC Berkeley DataHub",
+        "title": "Software Developer Intern",
+        "years": "10.2024 - present",
         "mainTech": [
-          "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "TypeScript",
+          "React",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Python",
+          "REST API",
+          "HTML",
+          "CSS"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "UC Berkeley Undergraduate Graphics Group",
+        "title": "Course Instructor",
+        "years": "08.2023 - 12.2023",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Maya",
+          "Python",
+          "3D Animation",
+          "3D Modeling"
+        ]
+      },
+      {
+        "company": "Bank of America",
+        "title": "Data Engineering Intern",
+        "years": "06.2023 - 08.2023",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Python",
+          "SQL",
+          "Databases",
+          "Alteryx"
+        ]
+      },
+      {
+        "company": "Jacobi Robotics",
+        "title": "Computer Graphics Intern",
+        "years": "01.2023 - 05.2023",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Python",
+          "Blender"        
+        ]
+      },
+      {
+        "company": "Bank of America",
+        "title": "Data Engineering Intern",
+        "years": "06.2022 - 08.2022",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Python",
+          "SQL",
+          "Databases"
+        ]
+      },
+      {
+        "company": "UC Berkeley",
+        "title": "Data Structures and Algorithms Lab Assistant",
+        "years": "01.2021 - 05.2022",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Java",
+          "Data Structures",
+          "Algorithms"
+        ]
+      },
+      {
+        "company": "Greenhouse: 3D Animation Film",
+        "title": "Production Manager",
+        "years": "08.2021 - 12.2021",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Maya",
+          "Pixar Renderman",
+          "Adobe After Effects",
+          "PhotoShop"        
+        ]
+      },
+      {
+        "company": "Stanford University Code in Place",
+        "title": "Course Instructor",
+        "years": "04.2021 - 05.2021",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Python",
+          "Data Structures",
+          "Algorithms"
         ]
       }
+      
     ]
   }
