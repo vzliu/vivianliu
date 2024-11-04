@@ -21,7 +21,7 @@
          "images/projects/booksmart4.png",
          "images/projects/booksmart5.png"
         ],
-        "url": "",
+        "url": "https://github.com/emilyeholmes/booksmart",
         "technologies": [
           {
             "class": "devicon-javascript-plain",
@@ -44,7 +44,7 @@
         "images": [
           "images/projects/voice_assistant.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -70,41 +70,11 @@
           "images/projects/pathtracer7.png",
           "images/projects/pathtracer8.png"
         ],
+        "url": "https://cal-cs184-student.github.io/proj-webpage-photoreceptor/proj3-1/index.html",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
             "name": "C++"
-          }
-        ]
-      },
-      {
-        "title": "Predict Housing Prices",
-        "startDate": "2022",
-        "description": "I trained a model with linear regression to predict house sale prices in Cook County and uncover injustices. I also feature engineered a dataset, removed outliers, experimented with design matrix, and one hot encoded nonnumerical features while optimizing for low training and testing RMSE using Python, pandas, and scikit-learn.",
-        "images": [
-          "images/projects/housing.png"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-pandas-plain",
-            "name": "Pandas"
-          },
-          {
-            "class": "devicon-scikitlearn-plain",
-            "name": "Sci-kit Learn"
-          },
-          {
-            "class": "devicon-numpy-plain",
-            "name": "NumPy"
-          },
-          {
-            "class": "devicon-jupyter-plain",
-            "name": "Jupyter"
           }
         ]
       },
@@ -124,7 +94,7 @@
           "images/projects/rasterizer9.png"
 
         ],
-        "url": "https://github.com",
+        "url": "https://cal-cs184-student.github.io/proj-webpage-photoreceptor/proj1/index.html",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -144,7 +114,7 @@
           "images/projects/meshedit5.png"
 
         ],
-        "url": "https://github.com",
+        "url": "https://cal-cs184-student.github.io/proj-webpage-photoreceptor/proj2/index.html",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -165,7 +135,7 @@
           "images/projects/cloth6.png",
           "images/projects/cloth7.png"
         ],
-        "url": "https://github.com",
+        "url": "https://cal-cs184-student.github.io/proj-webpage-photoreceptor/proj4/index.html",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -178,16 +148,13 @@
         "startDate": "2023",
         "description": "I programmed non-photorealistic shaders such as Cel/Toon, Voronoi, Gooch, Fresnel, and Palette. I incorporated research papers in programming of shaders and modified GUI code to support shader customizability (features include a color picker, light positioner, highlights toggle, and edge detection and thickness). I designed features such as a color picker, light positioner, highlights toggle, and edge detection and thickness. I also build the initial codebase based off a cloth simulator and reprogrammed to support .obj files for more complex models.",
         "images": [
-          "images/projects/pathtracer1.png",
-          "images/projects/pathtracer2.png",
-          "images/projects/pathtracer3.png",
-          "images/projects/pathtracer4.png",
-          "images/projects/pathtracer5.png",
-          "images/projects/pathtracer6.png",
-          "images/projects/pathtracer7.png",
-          "images/projects/pathtracer8.png"
+          "images/projects/npr5.png",
+          "images/projects/npr4.png",
+          "images/projects/npr3.png",
+          "images/projects/npr2.png",
+          "images/projects/npr1.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -208,6 +175,37 @@
           {
             "class": "devicon-c-plain",
             "name": "C"
+          }
+        ]
+      },
+      {
+        "title": "Predict Housing Prices",
+        "startDate": "2022",
+        "description": "I trained a model with linear regression to predict house sale prices in Cook County and uncover injustices. I also feature engineered a dataset, removed outliers, experimented with design matrix, and one hot encoded nonnumerical features while optimizing for low training and testing RMSE using Python, pandas, and scikit-learn.",
+        "images": [
+          "images/projects/housing.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
+          },
+          {
+            "class": "devicon-scikitlearn-plain",
+            "name": "Sci-kit Learn"
+          },
+          {
+            "class": "devicon-numpy-plain",
+            "name": "NumPy"
+          },
+          {
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter"
           }
         ]
       },
@@ -239,26 +237,6 @@
         ]
       },
       {
-        "title": "Slime Attack: 2D Platformer Game",
-        "startDate": "2021",
-        "description": "I developed a game in a team using Unity, C#, and data structures and algorithms concepts. I also designed 15+ sprites and implemented game level puzzle features. The game amassed 140+ playthroughs on itch.io",
-        "images": [
-          "images/projects/slime1.png",
-          "images/projects/slime2.png",
-          "images/projects/slime3.png",
-          "images/projects/slime4.png",
-          "images/projects/slime5.png",
-          "images/projects/slime6.png"
-        ],
-        "url": "https://itch.io/queue/c/1569619/gdd-spring-2021-showcase?game_id=975264",
-        "technologies": [
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
         "title": "Digit Classification and Language Identification",
         "startDate": "2022",
         "description": "I implemented neural networks to classify handwritten digits with 97.06% test accuracy and to identify languages with 83.8% test accuracy using gradient descent, linear regression, and ReLUs.",
@@ -269,6 +247,10 @@
           {
             "class": "devicon-c-plain",
             "name": "C"
+          },
+          {
+            "class": "devicon-risc-v-plain",
+            "name": "RISC-V"
           }
         ]
       },
@@ -295,6 +277,30 @@
           {
             "class": "devicon-maya-plain",
             "name": "Maya"
+          }
+        ]
+      },
+      {
+        "title": "Slime Attack: 2D Platformer Game",
+        "startDate": "2021",
+        "description": "I developed a game in a team using Unity, C#, and data structures and algorithms concepts. I also designed 15+ sprites and implemented game level puzzle features. The game amassed 140+ playthroughs on itch.io",
+        "images": [
+          "images/projects/slime1.png",
+          "images/projects/slime2.png",
+          "images/projects/slime3.png",
+          "images/projects/slime4.png",
+          "images/projects/slime5.png",
+          "images/projects/slime6.png"
+        ],
+        "url": "https://itch.io/queue/c/1569619/gdd-spring-2021-showcase?game_id=975264",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-unity-plain",
+            "name": "Unity"
           }
         ]
       },
